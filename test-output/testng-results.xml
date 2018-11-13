@@ -2,24 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="55297" started-at="2018-11-13T17:54:38Z" finished-at="2018-11-13T17:55:33Z">
+  <suite name="Default suite" duration-ms="12033" started-at="2018-11-13T18:18:29Z" finished-at="2018-11-13T18:18:42Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="55297" started-at="2018-11-13T17:54:38Z" finished-at="2018-11-13T17:55:33Z">
-      <class name="com.qa.selenium.concepts.keyboard_actions.MouseHoverAction">
-        <test-method status="PASS" signature="init()[pri:0, instance:com.qa.selenium.concepts.keyboard_actions.MouseHoverAction@18be83e4]" name="init" is-config="true" duration-ms="53085" started-at="2018-11-13T17:54:38Z" finished-at="2018-11-13T17:55:31Z">
+    <test name="Default test" duration-ms="12033" started-at="2018-11-13T18:18:29Z" finished-at="2018-11-13T18:18:42Z">
+      <class name="com.qa.selenium.concepts.keyboard_actions.RightClickOnElement">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.qa.selenium.concepts.keyboard_actions.RightClickOnElement@8bd1b6a]" name="init" is-config="true" duration-ms="11686" started-at="2018-11-13T18:18:30Z" finished-at="2018-11-13T18:18:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="mouseHovertest()[pri:0, instance:com.qa.selenium.concepts.keyboard_actions.MouseHoverAction@18be83e4]" name="mouseHovertest" duration-ms="1264" started-at="2018-11-13T17:55:31Z" finished-at="2018-11-13T17:55:32Z">
+        <test-method status="PASS" signature="testRightClickAction()[pri:0, instance:com.qa.selenium.concepts.keyboard_actions.RightClickOnElement@8bd1b6a]" name="testRightClickAction" duration-ms="273" started-at="2018-11-13T18:18:41Z" finished-at="2018-11-13T18:18:42Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- mouseHovertest -->
-        <test-method status="PASS" signature="close()[pri:0, instance:com.qa.selenium.concepts.keyboard_actions.MouseHoverAction@18be83e4]" name="close" is-config="true" duration-ms="872" started-at="2018-11-13T17:55:32Z" finished-at="2018-11-13T17:55:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-      </class> <!-- com.qa.selenium.concepts.keyboard_actions.MouseHoverAction -->
+        </test-method> <!-- testRightClickAction -->
+      </class> <!-- com.qa.selenium.concepts.keyboard_actions.RightClickOnElement -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
