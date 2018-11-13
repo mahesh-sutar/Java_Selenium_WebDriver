@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="22247" started-at="2018-11-13T17:16:34Z" finished-at="2018-11-13T17:16:56Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="22247" started-at="2018-11-13T17:16:34Z" finished-at="2018-11-13T17:16:56Z">
+      <class name="com.qa.selenium.concepts.keyboard_actions.DragDropActions">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.qa.selenium.concepts.keyboard_actions.DragDropActions@18be83e4]" name="init" is-config="true" duration-ms="17821" started-at="2018-11-13T17:16:34Z" finished-at="2018-11-13T17:16:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="dragDropTest()[pri:0, instance:com.qa.selenium.concepts.keyboard_actions.DragDropActions@18be83e4]" name="dragDropTest" duration-ms="1658" started-at="2018-11-13T17:16:52Z" finished-at="2018-11-13T17:16:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dragDropTest -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.qa.selenium.concepts.keyboard_actions.DragDropActions@18be83e4]" name="close" is-config="true" duration-ms="2624" started-at="2018-11-13T17:16:54Z" finished-at="2018-11-13T17:16:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.qa.selenium.concepts.keyboard_actions.DragDropActions -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
