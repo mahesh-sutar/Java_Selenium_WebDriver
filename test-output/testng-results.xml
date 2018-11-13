@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="22247" started-at="2018-11-13T17:16:34Z" finished-at="2018-11-13T17:16:56Z">
+  <suite name="Default suite" duration-ms="55297" started-at="2018-11-13T17:54:38Z" finished-at="2018-11-13T17:55:33Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="22247" started-at="2018-11-13T17:16:34Z" finished-at="2018-11-13T17:16:56Z">
-      <class name="com.qa.selenium.concepts.keyboard_actions.DragDropActions">
-        <test-method status="PASS" signature="init()[pri:0, instance:com.qa.selenium.concepts.keyboard_actions.DragDropActions@18be83e4]" name="init" is-config="true" duration-ms="17821" started-at="2018-11-13T17:16:34Z" finished-at="2018-11-13T17:16:52Z">
+    <test name="Default test" duration-ms="55297" started-at="2018-11-13T17:54:38Z" finished-at="2018-11-13T17:55:33Z">
+      <class name="com.qa.selenium.concepts.keyboard_actions.MouseHoverAction">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.qa.selenium.concepts.keyboard_actions.MouseHoverAction@18be83e4]" name="init" is-config="true" duration-ms="53085" started-at="2018-11-13T17:54:38Z" finished-at="2018-11-13T17:55:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="dragDropTest()[pri:0, instance:com.qa.selenium.concepts.keyboard_actions.DragDropActions@18be83e4]" name="dragDropTest" duration-ms="1658" started-at="2018-11-13T17:16:52Z" finished-at="2018-11-13T17:16:54Z">
+        <test-method status="PASS" signature="mouseHovertest()[pri:0, instance:com.qa.selenium.concepts.keyboard_actions.MouseHoverAction@18be83e4]" name="mouseHovertest" duration-ms="1264" started-at="2018-11-13T17:55:31Z" finished-at="2018-11-13T17:55:32Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- dragDropTest -->
-        <test-method status="PASS" signature="close()[pri:0, instance:com.qa.selenium.concepts.keyboard_actions.DragDropActions@18be83e4]" name="close" is-config="true" duration-ms="2624" started-at="2018-11-13T17:16:54Z" finished-at="2018-11-13T17:16:56Z">
+        </test-method> <!-- mouseHovertest -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.qa.selenium.concepts.keyboard_actions.MouseHoverAction@18be83e4]" name="close" is-config="true" duration-ms="872" started-at="2018-11-13T17:55:32Z" finished-at="2018-11-13T17:55:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-      </class> <!-- com.qa.selenium.concepts.keyboard_actions.DragDropActions -->
+      </class> <!-- com.qa.selenium.concepts.keyboard_actions.MouseHoverAction -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
