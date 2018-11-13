@@ -2,20 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="12033" started-at="2018-11-13T18:18:29Z" finished-at="2018-11-13T18:18:42Z">
+  <suite name="Default suite" duration-ms="20325" started-at="2018-11-13T19:02:09Z" finished-at="2018-11-13T19:02:29Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="12033" started-at="2018-11-13T18:18:29Z" finished-at="2018-11-13T18:18:42Z">
-      <class name="com.qa.selenium.concepts.keyboard_actions.RightClickOnElement">
-        <test-method status="PASS" signature="init()[pri:0, instance:com.qa.selenium.concepts.keyboard_actions.RightClickOnElement@8bd1b6a]" name="init" is-config="true" duration-ms="11686" started-at="2018-11-13T18:18:30Z" finished-at="2018-11-13T18:18:41Z">
+    <test name="Default test" duration-ms="20325" started-at="2018-11-13T19:02:09Z" finished-at="2018-11-13T19:02:29Z">
+      <class name="com.qa.selenium.concepts.multiple_windows.MultipleWindowsHandle">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.qa.selenium.concepts.multiple_windows.MultipleWindowsHandle@18be83e4]" name="init" is-config="true" duration-ms="13358" started-at="2018-11-13T19:02:09Z" finished-at="2018-11-13T19:02:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="testRightClickAction()[pri:0, instance:com.qa.selenium.concepts.keyboard_actions.RightClickOnElement@8bd1b6a]" name="testRightClickAction" duration-ms="273" started-at="2018-11-13T18:18:41Z" finished-at="2018-11-13T18:18:42Z">
+        <test-method status="PASS" signature="testHandleMultipleWindow()[pri:0, instance:com.qa.selenium.concepts.multiple_windows.MultipleWindowsHandle@18be83e4]" name="testHandleMultipleWindow" duration-ms="5752" started-at="2018-11-13T19:02:22Z" finished-at="2018-11-13T19:02:28Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testRightClickAction -->
-      </class> <!-- com.qa.selenium.concepts.keyboard_actions.RightClickOnElement -->
+        </test-method> <!-- testHandleMultipleWindow -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.qa.selenium.concepts.multiple_windows.MultipleWindowsHandle@18be83e4]" name="close" is-config="true" duration-ms="1142" started-at="2018-11-13T19:02:28Z" finished-at="2018-11-13T19:02:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.qa.selenium.concepts.multiple_windows.MultipleWindowsHandle -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

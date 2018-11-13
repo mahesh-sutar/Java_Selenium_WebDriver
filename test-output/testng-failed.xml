@@ -3,12 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.selenium.concepts.keyboard_actions.RightClickOnElement">
+      <class name="com.qa.selenium.concepts.multiple_windows.MultipleWindowsHandle">
         <methods>
+          <include name="close"/>
+          <include name="testHandleMultipleWindow"/>
           <include name="init"/>
-          <include name="testRightClickAction"/>
         </methods>
-      </class> <!-- com.qa.selenium.concepts.keyboard_actions.RightClickOnElement -->
+      </class> <!-- com.qa.selenium.concepts.multiple_windows.MultipleWindowsHandle -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
